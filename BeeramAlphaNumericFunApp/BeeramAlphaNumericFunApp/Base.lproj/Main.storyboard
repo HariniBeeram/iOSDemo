@@ -23,7 +23,7 @@
                                     <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacingType="standard" translatesAutoresizingMaskIntoConstraints="NO" id="2wt-Vw-xxQ" userLabel="HeaderSV">
                                         <rect key="frame" x="0.0" y="0.0" width="2184" height="210.66666666666666"/>
                                         <subviews>
-                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="HAVE SOME FUN" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="rHN-GC-2g8" userLabel="HeaderLBL">
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="HAVE SOME FUN" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="rHN-GC-2g8" userLabel="HeaderLBL">
                                                 <rect key="frame" x="0.0" y="0.0" width="2184" height="20.333333333333332"/>
                                                 <accessibility key="accessibilityConfiguration">
                                                     <accessibilityTraits key="traits" staticText="YES" header="YES"/>
@@ -121,6 +121,7 @@
                                                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                                                 <textInputTraits key="textInputTraits"/>
                                                                 <connections>
+                                                                    <action selector="InputStringTF:" destination="BYZ-38-t0r" eventType="editingDidEnd" id="AGi-bV-aZ7"/>
                                                                     <action selector="inputStringTF:" destination="BYZ-38-t0r" eventType="editingDidEnd" id="i0a-K7-hir"/>
                                                                 </connections>
                                                             </textField>
@@ -176,6 +177,7 @@
                                                         <rect key="frame" x="0.0" y="0.0" width="2184" height="341.33333333333331"/>
                                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                                        <string key="text">“Welcome!\n\nInteract with the UI elements and have some fun with numbers and strings, and patterns that are generated using them.”</string>
                                                         <color key="textColor" systemColor="labelColor"/>
                                                         <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                                         <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
@@ -192,7 +194,7 @@
                                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="a88-Tx-EA4" userLabel="Reset">
                                                                 <rect key="frame" x="730.66666666666674" y="0.0" width="722.66666666666674" height="50"/>
                                                                 <state key="normal" title="Button"/>
-                                                                <buttonConfiguration key="configuration" style="filled" title="Button"/>
+                                                                <buttonConfiguration key="configuration" style="filled" title="Reset"/>
                                                             </button>
                                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="K4m-He-970">
                                                                 <rect key="frame" x="1461.3333333333333" y="0.0" width="722.66666666666674" height="50"/>
@@ -242,7 +244,9 @@
                         <outlet property="firstnumberLBL" destination="MPu-KD-uRR" id="j8d-pQ-Zi1"/>
                         <outlet property="headerLBL" destination="rHN-GC-2g8" id="alX-8b-asi"/>
                         <outlet property="headerSV" destination="2wt-Vw-xxQ" id="k9e-aZ-Xj4"/>
+                        <outlet property="inputStringTF" destination="Zgl-Kx-1MY" id="bJk-Sj-frk"/>
                         <outlet property="launchLAV" destination="p2q-FO-uJn" id="pH4-Gz-Caq"/>
+                        <outlet property="lowercaseSWCH" destination="Io6-eB-cUW" id="Pbn-H9-5TX"/>
                         <outlet property="numbersSV" destination="QQf-qF-fHr" id="lDr-1A-5HB"/>
                         <outlet property="outputResetSV" destination="x4o-dg-50x" id="yyJ-eC-dAM"/>
                         <outlet property="outputTV" destination="cnO-Eg-8wi" id="rbf-7l-NGS"/>

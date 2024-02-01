@@ -11,9 +11,10 @@
 		C7050C9E2B697BA80092FD11 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7050C9D2B697BA80092FD11 /* SceneDelegate.swift */; };
 		C7050CA02B697BA80092FD11 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7050C9F2B697BA80092FD11 /* ViewController.swift */; };
 		C7050CA32B697BA80092FD11 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C7050CA12B697BA80092FD11 /* Main.storyboard */; };
-		C7050CA52B697BA90092FD11 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C7050CA42B697BA90092FD11 /* Assets.xcassets */; };
 		C7050CA82B697BA90092FD11 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C7050CA62B697BA90092FD11 /* LaunchScreen.storyboard */; };
 		C74642E72B6AFA3F0025F193 /* Lottie in Frameworks */ = {isa = PBXBuildFile; productRef = C74642E62B6AFA3F0025F193 /* Lottie */; };
+		DE3B16942B6B2BE5009360EF /* AnimatedGradientView in Frameworks */ = {isa = PBXBuildFile; productRef = DE3B16932B6B2BE5009360EF /* AnimatedGradientView */; };
+		DE81A6ED2B6B317000EB1DCD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DE81A6EC2B6B317000EB1DCD /* Assets.xcassets */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -39,11 +40,11 @@
 		C7050C9D2B697BA80092FD11 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		C7050C9F2B697BA80092FD11 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		C7050CA22B697BA80092FD11 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		C7050CA42B697BA90092FD11 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C7050CA72B697BA90092FD11 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		C7050CA92B697BA90092FD11 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C7050CAE2B697BA90092FD11 /* BeeramAlphaNumericFunAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BeeramAlphaNumericFunAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C7050CB82B697BA90092FD11 /* BeeramAlphaNumericFunAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BeeramAlphaNumericFunAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DE81A6EC2B6B317000EB1DCD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Assets.xcassets; path = ../../../BeeramAlphaNumericFunApp/Assets.xcassets; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,6 +52,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DE3B16942B6B2BE5009360EF /* AnimatedGradientView in Frameworks */,
 				C74642E72B6AFA3F0025F193 /* Lottie in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -97,7 +99,7 @@
 				C7050C9D2B697BA80092FD11 /* SceneDelegate.swift */,
 				C7050C9F2B697BA80092FD11 /* ViewController.swift */,
 				C7050CA12B697BA80092FD11 /* Main.storyboard */,
-				C7050CA42B697BA90092FD11 /* Assets.xcassets */,
+				DE81A6EC2B6B317000EB1DCD /* Assets.xcassets */,
 				C7050CA62B697BA90092FD11 /* LaunchScreen.storyboard */,
 				C7050CA92B697BA90092FD11 /* Info.plist */,
 			);
@@ -122,6 +124,7 @@
 			name = BeeramAlphaNumericFunApp;
 			packageProductDependencies = (
 				C74642E62B6AFA3F0025F193 /* Lottie */,
+				DE3B16932B6B2BE5009360EF /* AnimatedGradientView */,
 			);
 			productName = BeeramAlphaNumericFunApp;
 			productReference = C7050C982B697BA80092FD11 /* BeeramAlphaNumericFunApp.app */;
@@ -197,6 +200,7 @@
 			mainGroup = C7050C8F2B697BA80092FD11;
 			packageReferences = (
 				C74642E52B6AFA3F0025F193 /* XCRemoteSwiftPackageReference "lottie-ios" */,
+				DE3B16922B6B2BE4009360EF /* XCRemoteSwiftPackageReference "AnimatedGradientView" */,
 			);
 			productRefGroup = C7050C992B697BA80092FD11 /* Products */;
 			projectDirPath = "";
@@ -215,7 +219,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				C7050CA82B697BA90092FD11 /* LaunchScreen.storyboard in Resources */,
-				C7050CA52B697BA90092FD11 /* Assets.xcassets in Resources */,
+				DE81A6ED2B6B317000EB1DCD /* Assets.xcassets in Resources */,
 				C7050CA32B697BA80092FD11 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -591,6 +595,14 @@
 				minimumVersion = 4.4.0;
 			};
 		};
+		DE3B16922B6B2BE4009360EF /* XCRemoteSwiftPackageReference "AnimatedGradientView" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/rwbutler/AnimatedGradientView.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 3.1.1;
+			};
+		};
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
@@ -598,6 +610,11 @@
 			isa = XCSwiftPackageProductDependency;
 			package = C74642E52B6AFA3F0025F193 /* XCRemoteSwiftPackageReference "lottie-ios" */;
 			productName = Lottie;
+		};
+		DE3B16932B6B2BE5009360EF /* AnimatedGradientView */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = DE3B16922B6B2BE4009360EF /* XCRemoteSwiftPackageReference "AnimatedGradientView" */;
+			productName = AnimatedGradientView;
 		};
 /* End XCSwiftPackageProductDependency section */
 	};
